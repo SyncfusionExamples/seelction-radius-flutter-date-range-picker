@@ -9,8 +9,7 @@ class SelectionRadius extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: SafeArea(
-          child:
-          Card(
+          child: Card(
             margin: const EdgeInsets.fromLTRB(50, 150, 50, 150),
             child: SfDateRangePicker(
               view: DateRangePickerView.month,
